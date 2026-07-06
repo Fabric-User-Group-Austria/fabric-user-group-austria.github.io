@@ -1,10 +1,10 @@
 # Site settings
-title: "Technologieplauscherl - Technologie- und Software-Meetup in Linz"
-email: organizers@technologieplauscherl.at
-description: "Linzer Technologie Meetup - Mit Freunden zamkommen und über Technologie, Coding und Projekte reden"
-keywords: "Technologie, Web, Java, CSS, HTML, JavaScript, Groovy, Grails, Meetup"
+title: "Microsoft Fabric User Group Austria"
+email: hannes.alkin@datenexperten.at
+description: "Microsoft Fabric & Power BI User Group Austria"
+keywords: "MicrosoftFabric, Fabric, PowerBI, DataEngineering, Austria, UserGroup"
 baseurl: ""
-url: "https://technologieplauscherl.at"
+url: "https://fabric-user-group-austria.at"
 
 # Build settings
 markdown: kramdown
