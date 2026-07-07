@@ -40,8 +40,10 @@ layout: default
 
 		<div class="cards">
 			{% assign counter = 0 -%}
-			 {% for card in site.plauscherl reversed -%}
-				{% if card.layout == "post" and plauscherlEnded and counter < 6 -%}
+			{% for card in site.plauscherl reversed -%}
+				{% assign now = site.time | date: "%s" | plus: 0 %}
+				{% assign eventStart = card.startDateIso8601 | date: "%s" | plus: 0 %}
+				{% if card.layout == "post" and eventStart < now and counter < 6 -%}
 					{% assign counter = counter | plus: 1 -%}
 					{% include plauscherl-card.html -%}
 				{% endif -%}
