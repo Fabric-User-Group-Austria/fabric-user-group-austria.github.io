@@ -31,10 +31,12 @@ layout: default
 
 		<h2 id="info">Info</h2>
 
-		{% include description.html -%}
+		<aside itemprop="description">
+			{% capture desc %}{% include description.md %}{% endcapture %}
+			{{ desc | markdownify }}
+		</aside>
 
-
-		<h2 id="previous-plauscherls">Vorherige Plauscherl</h2>
+		<h2 id="previous-plauscherls">Vorherige Termine</h2>
 
 		<div class="cards">
 			{% assign counter = 0 -%}
