@@ -13,7 +13,7 @@ zweiter Absatz ...
 
 die Gründer und Organisatoren: 
 <img src="/img/orgas.jpg" class="orgas__img">
-<span class="speaker__name">Franz&nbsp;Eder, Karin&nbsp;Szilágyi, Benedict&nbsp;Albrecht</span>
+<span class="speaker__name">Karin&nbsp;Szilágyi, Franz&nbsp;Eder, Benedict&nbsp;Albrecht</span>
 
 <script>
     (function() {

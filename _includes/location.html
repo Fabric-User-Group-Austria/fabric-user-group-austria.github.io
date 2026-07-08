@@ -1,5 +1,14 @@
 <h2>Location</h2>
 
+{%if include.location.name == "Remote" -%}
+<p>Remote only</p>
+{% endif -%}
+
+{%if include.location.name == "TBA" -%}
+<p>To be announced</p>
+{% endif -%}
+
+{% if include.location.name != "Remote" and include.location.name != "TBA" %}
 <address itemprop="location" itemscope itemtype="https://schema.org/Place">
 	<span class="n" itemprop="name">{{include.location.name}}</span>
 	<div itemprop="address">
@@ -32,3 +41,4 @@ Generate OpenStreetMap Embedding from coordinates
 	src="https://www.openstreetmap.org/export/embed.html?bbox={{ min_lng }}%2C{{ min_lat }}%2C{{ max_lng }}%2C{{ max_lat }}&amp;layer=mapnik&amp;marker={{ lat }}%2C{{ lng }}" 
 	style="border: 1px solid black">
 </iframe>
+{% endif %}
