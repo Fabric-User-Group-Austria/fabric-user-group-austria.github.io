@@ -2,7 +2,7 @@
 layout: page
 title: Fabric User Group Austria - FAQ
 permalink: /faq/
-og_description: "Häufig gestellte Fragen zum Technologieplauscherl - von Vorträgen über Gastgeber bis hin zu Community-News."
+og_description: "Häufig gestellte Fragen zur User Group"
 ---
 Wie melde ich mich für einen Vortrag?
 : am besten Mail an ...
