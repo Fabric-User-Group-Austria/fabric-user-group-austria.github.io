@@ -1,7 +1,7 @@
 ---
 layout: grid
-title: Fabric User Group Austria - Datenschutz
-<!-- permalink: /privacy/ -->
+title: Privacy
+permalink: /privacy/
 ---
 ## Photos and recordings at events
 
