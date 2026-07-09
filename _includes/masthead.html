@@ -82,12 +82,14 @@
 			</svg>
 		</a>
 
-		<a href="https://www.meetup.com/microsoft-fabric-user-group-austria/" target="_blank" class="link link--big link--meetup">
-			Events auf Meetup
-			<svg class="link__icon">
-				<use xlink:href="#icon-meetup"></use>
-			</svg>
-		</a>
+		{% if include.ended -%}
+			<a href="https://www.meetup.com/microsoft-fabric-user-group-austria/" target="_blank" class="link link--big link--meetup">
+				Events auf Meetup
+				<svg class="link__icon">
+					<use xlink:href="#icon-meetup"></use>
+				</svg>
+			</a>
+		{% endif -%}
 
 		{% unless include.ended -%}
 			{% if post.event -%}
@@ -101,7 +103,7 @@
 				{% endif -%}
 				{% if post.event.meetup -%}
 				<a href="https://www.meetup.com/microsoft-fabric-user-group-austria/events/{{post.event.meetup}}" class="link link--big link--meetup">
-					Termin auf Meetup!
+					Termin auf Meetup
 					<svg class="link__icon">
 						<use xlink:href="#icon-meetup"></use>
 					</svg>
