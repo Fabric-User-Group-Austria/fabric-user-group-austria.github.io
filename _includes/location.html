@@ -1,14 +1,10 @@
 <h2>Location</h2>
 
-{%if include.location.name == "Remote" -%}
+{% if include.location.name == "Remote" -%}
 	<p>Remote only</p>
-{% endif -%}
-
-{%if include.location.name == "TBA" -%}
+{% elsif include.location.name == "TBA" -%}
 	<p>To be announced</p>
-{% endif -%}
-
-{% if include.location.name != "Remote" and include.location.name != "TBA" %}
+{% else -%}
 	<address itemprop="location" itemscope itemtype="https://schema.org/Place">
 		<span class="n" itemprop="name">{{include.location.name}}</span>
 		<div itemprop="address">
