@@ -4,7 +4,9 @@ title: Fabric User Group Austria - FAQ
 permalink: /faq/
 og_description: "Häufig gestellte Fragen zur User Group"
 ---
-Wie melde ich mich für einen Vortrag?
+### Coming soon
+
+<!-- Wie melde ich mich für einen Vortrag?
 : am besten Mail an ...
 
 Welche Voraussetzung muss ich für einen Vortrag erfüllen?
@@ -23,4 +25,4 @@ Darf ich meine Veranstaltung bei den Community News bewerben?
 : Ja, wenn sie zum Format passen.
 
 Auf dieser Seite stimmt etwas nicht. Kann ich das nicht gleich selbst ändern?
-: Nur zu - ganz einfach direkt auf Github ändern.
+: Nur zu - ganz einfach direkt auf Github ändern. -->

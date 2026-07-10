@@ -1,9 +1,85 @@
 ---
 layout: page
-title: About us
+title: Über uns
 permalink: /about/
-og_description: "About us"
+og_description: "Über uns"
 ---
+Microsoft Fabric User Group Austria: Fabric, Power BI und mehr!
+
+Eine Community für alle, die mit den Datenlösungen von Microsoft arbeiten – darunter Microsoft Fabric, Power BI und verwandte Dienste im Azure-Ökosystem. Tausche Wissen aus, diskutiere neue Funktionen und vernetze dich mit anderen Anwender:innen der Microsoft Data Platform in Österreich. Ganz gleich, ob du gerade erst einsteigst oder bereits viel Erfahrung mitbringst – du bist herzlich willkommen!
+
+[Besuche uns auch auf LinkedIn](https://www.linkedin.com/groups/15071006/), um allgemeine Fragen zu stellen, Tipps und Tricks auszutauschen und dich mit der Community zu vernetzen. Dort findest du außerdem Fotos und Präsentationsfolien unserer vergangenen Meetups.
+
+## Community-Richtlinien
+
+Unsere User Group lebt vom gemeinsamen Lernen, dem Austausch von Wissen und einem respektvollen Miteinander. Unser Ziel ist es, eine offene, inklusive und sichere Umgebung für alle zu schaffen – unabhängig von Hintergrund, Erfahrungsniveau oder Rolle.
+
+Mit deiner Teilnahme an unseren Veranstaltungen, Online-Plattformen oder Diskussionen erkennst du diese Community-Richtlinien an.
+
+### 1. Begegne anderen respektvoll und offen
+
+Behandle alle Teilnehmenden respektvoll und professionell.
+
+- Sei freundlich, offen und unterstützend.
+- Schätze unterschiedliche Perspektiven, Hintergründe und Erfahrungsstufen.
+- Verwende eine inklusive Sprache und führe Diskussionen konstruktiv.
+- Belästigung, Diskriminierung oder ausgrenzendes Verhalten werden nicht toleriert.
+
+### 2. Halte Diskussionen sachlich und konstruktiv
+
+Unsere Veranstaltungen und Diskussionen konzentrieren sich auf Microsoft Fabric, Power BI, die Microsoft Data Platform sowie verwandte Analyse- und Datentechnologien.
+
+- Bleibe während Vorträgen und Diskussionen beim Thema.
+- Stelle Fragen und teile deine Erfahrungen und Meinungen respektvoll und konstruktiv.
+- Respektiere die Zeit der Vortragenden sowie unterschiedliche technische Lösungsansätze.
+
+### 3. Wissensaustausch statt Werbung
+
+Diese Community dient dem Austausch von Wissen und praktischen Erfahrungen.
+
+- Vorträge und Diskussionen sollen den Schwerpunkt auf Lernen und fachlichen Mehrwert legen.
+- Verkaufspräsentationen, Lead-Generierung oder übermäßige Eigenwerbung sind nicht gestattet.
+- Hinweise auf Produkte oder Anbieter sollen transparent erfolgen und einen fachlichen Bezug haben.
+
+### 4. Keine Toleranz für Belästigung
+
+Folgendes Verhalten ist bei unseren Veranstaltungen und in unseren Online-Communities nicht akzeptabel:
+
+- Belästigung, Einschüchterung oder persönliche Angriffe
+- Diskriminierende oder herabwürdigende Äußerungen aufgrund von Geschlecht, Identität, Herkunft, Religion, Behinderung oder Erfahrungsniveau
+- Störendes Verhalten während Vorträgen oder Diskussionen
+- Unerwünschte sexuelle Aufmerksamkeit oder unangemessene Sprache
+
+### 5. Die Community steht im Mittelpunkt
+
+Wir sind eine österreichweite Community mit hybriden, virtuellen und Präsenzveranstaltungen in Wien, Graz und Linz.
+
+- Respektiere sowohl Teilnehmende vor Ort als auch online.
+- Unterstütze Vortragende, Organisatorinnen und Organisatoren sowie freiwillige Helferinnen und Helfer.
+- Trage zu einer freundlichen, offenen und kooperativen Atmosphäre bei.
+
+### 6. Verstöße melden
+
+Wenn du ein Verhalten erlebst oder beobachtest, das gegen diese Community-Richtlinien verstößt:
+
+- Wende dich direkt an die Gruppenleitung oder eine stellvertretende Gruppenleitung, oder
+- kontaktiere uns vertraulich über die offiziellen Meetup- oder Community-Kanäle.
+
+Alle Meldungen werden vertraulich und respektvoll behandelt.
+
+Die Organisatorinnen und Organisatoren behalten sich vor, angemessene Maßnahmen zu ergreifen, um die Community zu schützen. Dazu gehören Verwarnungen, der Ausschluss von Veranstaltungen oder – falls erforderlich – der Ausschluss über die Meetup-Plattform.
+
+### 7. Fotos und Aufnahmen bei Veranstaltungen
+
+Bei unseren Veranstaltungen können Fotos und Videoaufnahmen für Zwecke der Community, zur Dokumentation oder zur Öffentlichkeitsarbeit erstellt werden (z. B. für Meetup, soziale Medien oder Community-Plattformen).
+
+- Mit der Teilnahme an einer Veranstaltung nimmst du zur Kenntnis, dass Foto- und Videoaufnahmen gemacht werden können.
+- Wenn du **nicht** auf Fotos oder Aufnahmen erscheinen möchtest, informiere Sie bitte während der Veranstaltung eine der organisierenden Personen. Wir werden unser Bestes tun, um deinen Wunsch zu berücksichtigen.
+
+---
+
+## About us
+
 Microsoft Fabric User Group Austria: Fabric, Power BI and more!
 
 A community for anyone working with Microsoft’s data tools, including Fabric, Power BI, and related services in the Azure ecosystem. Share your knowledge, discuss new features, and connect with others using the Microsoft Data Platform in Austria. All experience levels welcome!

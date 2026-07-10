@@ -7,12 +7,10 @@ og_description: "Wie ist die Fabric User Group Austria entstanden? Wer sind die 
 ---
 ## Geschichte
 
-erster Absatz ... 
-
-zweiter Absatz ...
+### Coming soon
 
 die Gründer und Organisatoren: 
-<img src="/img/orgas.jpg" class="orgas__img">
+<!-- <img src="/img/orgas.jpg" class="orgas__img"> -->
 <span class="speaker__name">Karin&nbsp;Szilágyi, Franz&nbsp;Eder, Benedict&nbsp;Albrecht</span>
 
 <script>
