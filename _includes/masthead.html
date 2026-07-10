@@ -2,7 +2,7 @@
 
 <div class="masthead{% if post.layout == "page" %} masthead--plain{% endif %}">
 	<div class="top">
-		<h1 itemprop="name">Technologieplauscherl</h1>
+		<h1 itemprop="name">Fabric User Group Austria</h1>
 	</div>
 
 	<div class="bottom">
@@ -75,20 +75,20 @@
 			{{ post.content }}
 		{% endif -%}
 
-		{% if include.ended -%}
-		<a href="https://www.linkedin.com/groups/12659872/" target="_blank" class="link link--big link--linkedin">
-			Planung auf LinkedIn
+		<a href="https://www.linkedin.com/groups/15071006/" target="_blank" class="link link--big link--linkedin">
+			Wir sind auf LinkedIn!
 			<svg class="link__icon">
 				<use xlink:href="#icon-linkedin"></use>
 			</svg>
 		</a>
 
-		<a href="https://www.meetup.com/Technologieplauscherl-Linz/" target="_blank" class="link link--big link--meetup">
-			Wir sind auf Meetup!
-			<svg class="link__icon">
-				<use xlink:href="#icon-meetup"></use>
-			</svg>
-		</a>
+		{% if include.ended -%}
+			<a href="https://www.meetup.com/microsoft-fabric-user-group-austria/" target="_blank" class="link link--big link--meetup">
+				Events auf Meetup
+				<svg class="link__icon">
+					<use xlink:href="#icon-meetup"></use>
+				</svg>
+			</a>
 		{% endif -%}
 
 		{% unless include.ended -%}
@@ -102,8 +102,8 @@
 				</a>
 				{% endif -%}
 				{% if post.event.meetup -%}
-				<a href="https://www.meetup.com/Technologieplauscherl-Linz/events/{{post.event.meetup}}" class="link link--big link--meetup">
-					Termin auf Meetup!
+				<a href="https://www.meetup.com/microsoft-fabric-user-group-austria/events/{{post.event.meetup}}" class="link link--big link--meetup">
+					Termin auf Meetup
 					<svg class="link__icon">
 						<use xlink:href="#icon-meetup"></use>
 					</svg>

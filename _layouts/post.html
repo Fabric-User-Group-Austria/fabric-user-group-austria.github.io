@@ -25,11 +25,13 @@ layout: default
 			{{page.timestring}} Uhr
 			</span>
 		</p>
-		<h2>Sessions</h2>
+		{% if page.talks %}
+			<h2>Sessions</h2>
 
-		{% include speakers.html post=page -%}
+			{% include speakers.html post=page -%}
 
-		{{content}}
+			{{content}}
+		{% endif %}
 
 		{% if page.video -%}
 		<section class="video">
@@ -48,9 +50,9 @@ layout: default
 			</a>
 			{% endif -%}
 			{% if page.event.meetup -%}
-			<a href="https://www.meetup.com/Technologieplauscherl-Linz/events/{{page.event.meetup}}"
+			<a href="https://www.meetup.com/microsoft-fabric-user-group-austria/events/{{page.event.meetup}}"
 			   class="link link--big link--meetup">
-				Termin auf Meetup!
+				Termin auf Meetup
 				<svg class="link__icon">
 					<use xlink:href="#icon-meetup"></use>
 				</svg>
