@@ -11,7 +11,7 @@
 		{% endcomment -%}
 		{% assign event_location_name = page.location.name | default: '' -%}
 		{% assign event_location_city = page.location.city | default: '' -%}
-		{% assign meta_description = 'Technologieplauscherl am ' | append: page.datestring | append: ' bei ' | append: event_location_name | append: ' in ' | append: event_location_city -%}
+		{% assign meta_description = 'Event am ' | append: page.datestring | append: ' bei ' | append: event_location_name | append: ' in ' | append: event_location_city -%}
 		{% assign event_image_name = page.name | split: '.' | first -%}
 		{% assign event_image = '/img/plauscherle/' | append: event_image_name | append: '.webp' -%}
 		{% assign event_image_file = site.static_files | where: 'path', event_image -%}
