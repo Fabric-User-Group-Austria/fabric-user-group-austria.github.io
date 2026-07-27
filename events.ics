@@ -7,7 +7,7 @@ PRODID:{{ site.url }}
 X-PUBLISHED-TTL:PT1H
 X-WR-CALNAME:{{site.title}}
 X-WR-TIMEZONE:{{timezone}}
-METHOD:PUBLISH{% for post in site.plauscherl %}{% if post.startDateIso8601 %}{% assign starttime = post.timestring | replace: ":","" %}{% assign endtime = starttime | plus:400 %}{% assign location_fmt = post.location.address | append: ', ' | append: post.location.zip | append: ' ' | append: post.location.city %}
+METHOD:PUBLISH{% for post in site.termin %}{% if post.startDateIso8601 %}{% assign starttime = post.timestring | replace: ":","" %}{% assign endtime = starttime | plus:400 %}{% assign location_fmt = post.location.address | append: ', ' | append: post.location.zip | append: ' ' | append: post.location.city %}
 BEGIN:VEVENT
 SEQUENCE:{{site.time | date: "%m%d%H%M%S"}}
 UID:{{ post.startDateIso8601 | date: "%Y%m%d" }}-{{post.name}}@{{ site.url | replace: "http://","" }}
