@@ -77,7 +77,7 @@
 		{% endif -%}
 
 		<a href="https://www.linkedin.com/groups/15071006/" target="_blank" class="link link--big link--linkedin">
-			Wir sind auf LinkedIn!
+			Vernetzen auf LinkedIn
 			<svg class="link__icon">
 				<use xlink:href="#icon-linkedin"></use>
 			</svg>
@@ -94,14 +94,6 @@
 
 		{% unless include.ended -%}
 			{% if post.event -%}
-				{% if post.event.facebook -%}
-				<a href="https://www.facebook.com/events/{{post.event.facebook}}" target="_blank" class="link link--big link--facebook">
-					Termin auf Facebook
-					<svg class="link__icon">
-						<use xlink:href="#icon-facebook"></use>
-					</svg>
-				</a>
-				{% endif -%}
 				{% if post.event.meetup -%}
 				<a href="https://www.meetup.com/microsoft-fabric-user-group-austria/events/{{post.event.meetup}}" target="_blank" class="link link--big link--meetup">
 					Termin auf Meetup

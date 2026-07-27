@@ -1,9 +1,6 @@
 $btnTextColor: #fff;
 $btnBgColor: $brand;
-$btnIconColor: #29447E;
-
-$facebookBtnColor: #3B5998;
-$facebookIconColor: #29447E;
+// $btnIconColor: #29447E;
 
 $googlePlusBtnColor: #DB4A37;
 
@@ -30,7 +27,8 @@ $meetupBtnColor: #ff4a79;
 
 	&:hover {
 		text-decoration: none;
-		color: darken($btnTextColor, 10);
+		color: $btnTextColor;
+		background-color: lighten($btnBgColor, 10);
 	}
 }
 
@@ -40,7 +38,7 @@ $meetupBtnColor: #ff4a79;
 }
 
 .link__icon {
-	background-color: lighten($btnBgColor, 10);
+	background-color: darken($btnBgColor, 10);
 
 	height: 2.7rem;
 	width: 2.7rem;
@@ -55,18 +53,19 @@ $meetupBtnColor: #ff4a79;
 	position: absolute;
 	right: 0;
 	top: 0;
+
+	&:hover {
+		// color: darken($btnTextColor, 10);
+		background-color: $btnBgColor;						// lighten(10) and darken(10) cancel each other
+	}
+}
+
+.link:hover .link__icon {
+	background-color: $btnBgColor;							// lighten(10) and darken(10) cancel each other
 }
 
 .link--big {
     min-width: 13rem;
-}
-
-.link--facebook {
-	background-color: $facebookBtnColor;
-
-	.link__icon {
-		background-color: darken($facebookBtnColor, 10);
-	}
 }
 
 .link--linkedin {
@@ -74,6 +73,14 @@ $meetupBtnColor: #ff4a79;
 
 	.link__icon {
 		background-color: darken($linkedInBtnColor, 10);
+	}
+
+	&:hover {
+		background-color: lighten($linkedInBtnColor, 10);
+
+		.link__icon {
+			background-color: $linkedInBtnColor;				// lighten(10) and darken(10) cancel each other
+		}
 	}
 }
 
@@ -83,5 +90,13 @@ $meetupBtnColor: #ff4a79;
 
 	.link__icon {
 		background-color: darken($meetupBtnColor, 10);
+	}
+
+	&:hover {
+		background-color: lighten($meetupBtnColor, 10);
+
+		.link__icon {
+			background-color: $meetupBtnColor;				// lighten(10) and darken(10) cancel each other
+		}
 	}
 }

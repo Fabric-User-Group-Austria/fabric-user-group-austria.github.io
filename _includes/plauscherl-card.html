@@ -1,6 +1,7 @@
+ {% assign imgPath = card.name | replace: "#", "" | replace: " ", "" %}
 <a class="card" href="{{card.url}}">
   <img class="card__bg" 
-    src="/img/plauscherle/{{card.name}}.webp"
+    src="/img/plauscherle/{{imgPath}}.webp"
     loading="lazy"
     onerror="if (!this.src.endsWith('fallback.webp')) this.src = '/img/plauscherle/fallback.webp'">
   <div class="card__number">{{card.name}}</div>
