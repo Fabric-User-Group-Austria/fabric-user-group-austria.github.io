@@ -3,11 +3,11 @@
 	{% assign meta_description = site.description -%}
 	{% assign additional_image = page.og_image | default: '' -%}
 	{% comment -%}
-		In addition to the default image, specify a page-specific image if on a plauscherl-page (e.g. technologieplauscherl.at/91)
+		In addition to the default image, specify a page-specific image if on a termin-page (e.g. fabric-user-group.at/5/)
 	{% endcomment -%}
 	{% if page.layout == "post" -%}
 		{% comment -%}
-			Construct a meta description for plauscherl pages, e.g. "Technologieplauscherl am 12.12.2024 bei ... in ..."}
+			Construct a meta description for termin pages, e.g. "Meetup am 12.12.2024 bei ... in ..."
 		{% endcomment -%}
 		{% assign event_location_name = page.location.name | default: '' -%}
 		{% assign event_location_city = page.location.city | default: '' -%}
@@ -46,7 +46,7 @@
 	{% endif -%}
 	<link rel="stylesheet" href="/css/main.css?3">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
-	<!-- <link rel="alternate" type="application/rss+xml" title="Technologieplauscherl.at » Updates" href="https://www.technologieplauscherl.at/feed.xml"> -->
+	<link rel="alternate" type="application/rss+xml" title="fabric-user-group.at » Updates" href="https://fabric-user-group.at/feed.xml">
 	<link rel="icon" type="image/png" href="/img/icons/favicon-96x96.png" sizes="96x96" />
 	<link rel="icon" type="image/svg+xml" href="/img/icons/favicon.svg" />
 	<link rel="shortcut icon" href="/img/icons/favicon.ico" />
