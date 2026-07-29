@@ -1,0 +1,38 @@
+MIT License
+
+Copyright (c) 2012-2026 Technologieplauscherl Organizers and Contributors
+Copyright (c) 2026 Fabric User Group Austria Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+ADDITIONAL LICENSE NOTE:
+The MIT License applies strictly to the website layout, templates,
+and scripts (including HTML, CSS, SCSS, JavaScript, and Jekyll/Liquid
+templates).
+
+It does NOT apply to:
+1. Structured data and content files containing events, speakers, locations,
+   community information, or other editorial content.
+2. Images, logos, photographs, and branding assets, which remain the
+   copyright of their respective owners.
+
+Parts of the website code are derived from the Technologieplauscherl website
+and remain subject to the copyright notice above.
