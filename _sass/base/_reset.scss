@@ -51,19 +51,20 @@ ol, ul {
 }
 
 h1, h2 {
-	font-family: 'baby-neue';
+	font-family: 'antonio', serif, 'Helvetica', sans-serif;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 
 h1 {
 	font-size: 2rem;
-	font-weight: normal;
-	text-transform: uppercase;
+	font-weight: 600;
 }
 
 h2 {
 	font-size: 1.5rem;
+	font-weight: 600;
 	color: $brand;
 	margin: 0;
 	padding: 1.25rem;
