@@ -3,30 +3,10 @@
     <p class="wrapper">
       {{ 'now' | date: "%Y" }} - Fabric User Group Austria  - 
       <a href="/">Home</a> - <a href="/privacy">Datenschutz</a> - 
-      <!-- <a href="/feed">RSS</a> -  -->
-      <!--<a href="https://twitter.com/plauscherl">Twitter</a>  - --> 
+      <a href="/feed">RSS</a> - 
       <!-- <a href="https://github.com/fabric-user-group-austria">GitHub</a> -  -->
       <a href="https://www.linkedin.com/groups/15071006/">LinkedIn</a> - 
       <a href="https://www.meetup.com/microsoft-fabric-user-group-austria/">MeetUp</a> - 
       <a href="/events.ics">.iCal</a>
     </p>
   </footer>
-  <script>
-  (function(s, xhr) {
-
-    var cssPath = '/css/fonts.css';
-
-    if (s.getItem('fcache2') === null) {
-      var http = new xhr();
-      http.open('GET', '//' + location.host + cssPath);
-      http.send();
-      http.onload = function() {
-        as(this.responseText);
-        s.setItem('fcache2', this.responseText);
-      }
-    } else {
-      as(s.getItem('fcache2'));
-    }
-
-  })(window.localStorage, XMLHttpRequest);
-</script>

@@ -4,6 +4,7 @@ title: Fabric User Group Austria - Geschichte
 permalink: /history/
 og_image: /img/orgas.jpg
 og_description: "Wie ist die Fabric User Group Austria entstanden? Wer sind die Gründer?"
+published: false
 ---
 ## Geschichte
 

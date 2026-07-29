@@ -155,7 +155,7 @@
 }
 
 .talk__abstract-summary:focus {
-	outline: 0.125rem solid #49c096;
+	outline: 0.125rem solid lighten($brand, 10);
 	outline-offset: 0.125rem;
 	border-radius: 0.125rem;
 }
@@ -234,7 +234,7 @@
 }
 
 .speaker__count {
-	background-color: #f71111;
+	background-color: $accent;
 	position: absolute;
 	width: 25px;
 	height: 25px;
@@ -281,7 +281,7 @@
 }
 
 .speaker__abstract-summary:focus {
-	outline: 0.125rem solid #49c096;
+	outline: 0.125rem solid lighten($brand, 10);
 	outline-offset: 0.125rem;
 	border-radius: 0.125rem;
 }

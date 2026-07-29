@@ -18,6 +18,6 @@ plugins:
 collections:
   community:
     permalink: :path/
-  plauscherl:
+  termin:
     output: true
     permalink: /:name/

@@ -2,20 +2,20 @@
 layout: default
 ---
 
-{% assign post = site.plauscherl | last -%}
+{% assign post = site.termin | last -%}
 
 {% assign buildTimeInSecondsInEpoch = site.time | date: "%s" | plus: 0 -%}
-{% assign plauscherlTimeInSecondsInEpoch = post.startDateIso8601 | date: "%s" | plus: 0 -%}
-{% assign plauscherlEnded = false -%}
-{% if plauscherlTimeInSecondsInEpoch < buildTimeInSecondsInEpoch -%}
-{% assign plauscherlEnded = true -%}
+{% assign terminTimeInSecondsInEpoch = post.startDateIso8601 | date: "%s" | plus: 0 -%}
+{% assign terminEnded = false -%}
+{% if terminTimeInSecondsInEpoch < buildTimeInSecondsInEpoch -%}
+{% assign terminEnded = true -%}
 {% endif -%}
 
 
 <main itemscope itemtype="https://schema.org/Event">
-	{% include masthead.html ended=plauscherlEnded -%}
+	{% include masthead.html ended=terminEnded -%}
 	<div class="wrapper">
-		{% unless plauscherlEnded -%}
+		{% unless terminEnded -%}
 		{% if post.location -%}
 		{% include location.html location=post.location -%}
 		{% endif -%}
@@ -36,16 +36,16 @@ layout: default
 			{{ desc | markdownify }}
 		</aside>
 
-		<h2 id="previous-plauscherls">Vorherige Termine</h2>
+		<h2 id="previous-events">Vorherige Termine</h2>
 
 		<div class="cards">
 			{% assign counter = 0 -%}
-			{% for card in site.plauscherl reversed -%}
+			{% for card in site.termin reversed -%}
 				{% assign now = site.time | date: "%s" | plus: 0 %}
 				{% assign eventStart = card.startDateIso8601 | date: "%s" | plus: 0 %}
 				{% if card.layout == "post" and eventStart < now and counter < 6 -%}
 					{% assign counter = counter | plus: 1 -%}
-					{% include plauscherl-card.html -%}
+					{% include termin-card.html -%}
 				{% endif -%}
 			{% endfor -%} 
 		</div>

@@ -3,6 +3,7 @@ layout: page
 title: Fabric User Group Austria - FAQ
 permalink: /faq/
 og_description: "Häufig gestellte Fragen zur User Group"
+published: false
 ---
 ### Coming soon
 
